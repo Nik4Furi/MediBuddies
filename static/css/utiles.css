@@ -1,0 +1,22 @@
+/* html{
+    font-size: 62.5%;
+} */
+.h-primary{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.h-secondry{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.h-fourth{
+    font-size: 0.9rem;;
+    font-weight: 500;
+}
+.para{
+    font-size: 1rem;
+    /* font-weight: 200 ; */
+}
+.para-sm{
+    font-size: .08rem;
+}

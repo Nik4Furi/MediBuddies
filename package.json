@@ -1,0 +1,25 @@
+{
+  "name": "medibuddy",
+  "version": "1.0.0",
+  "description": "This is assignment of the hackerrank and i will complete that time to called project time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MediBuddies",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.1.3",
+    "express": "^4.18.1",
+    "jquery": "^3.6.0",
+    "nodemon": "^2.0.16",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "MediBuddy"
+  }
+}

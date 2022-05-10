@@ -1,0 +1,23 @@
+/* Media Queries are Written here */
+@media screen and  (max-width: 992px){
+  .aboutContainer-left{
+    display: block !important;
+    width: 100% !important; 
+  }
+  .aboutContainer-right{
+    display: none;
+    width: 0%;
+  }
+  #card-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #footer{
+    flex-direction: column;
+  }
+  .card-box{
+    width: 10vw;
+    height: 20%;
+  }
+}
