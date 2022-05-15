@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{>Header}}
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- Navbar  -->
+ {{>Navbar}}
+
+  <!-- Our About Section started with all about them -->
+  <div class="about">
+
+    <h1 class="text-center h-primary">About Us</h1>
+    <div class="aboutContainer">
+      <div id="aboutContainer-left" class="aboutContainer-left">
+        <h2 class="text-center h-secondry">One Stop Solution For All Medical Needs</h2>
+        <p class="para">
+          About 930 million people worldwide are at risk of falling into poverty due to out-of-pocket health spending of
+          10% or more of their household budget.
+          Scaling up primary health care (PHC) interventions across low and middle-income countries could save 60
+          million lives and increase average life expectancy by 3.7 years by 2030.
+          Achieving the targets for PHC requires an additional investment of around US$ 200 to US$ 370 billion a year
+          for a more comprehensive package of health services.</p>
+        <p class="para"> At the UN high level UHC meeting in 2019, countries committed to strengthening primary health
+          care. WHO recommends that every country allocate or reallocate an additional 1% of GDP to PHC from government
+          and external funding sources. </p>
+      </div>
+      <div class="aboutContainer-right" id="aboutContainer-right">
+        <div class="img">
+          <img src="/img/about/about-right-1.jpeg" alt="img" width="100%" height="100%">
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Slider  -->
+    <div class="aboutCard my-3">
+      <h2 class="text-center h-primary">About The MEDDIBUDDIES </h2>
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper aboutContainer-card">
+        <div class="swiper-wrapper ">
+
+          <div class="swiper-slide ">
+            <div class="card-box">
+              <div class="card-img-left">
+                <img src="/img/about/dev-0.jpeg" alt="developers" width="100%">
+              </div>
+              <div class="card-content-right">
+                <h6 class="h-fourth">Bhagat Singh</h6>
+                <span><img src="/img/about/qoute.png" alt="qoute" width="10"></span>
+                <p class="para-sm text-primary"> i am a clerk of the team
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ">
+            <div class="card-box">
+              <div class="card-img-left">
+                <img src="/img/about/dev-0.jpeg" alt="developers" width="100%">
+              </div>
+              <div class="card-content-right">
+                <h6 class="h-fourth">Bhagat Singh</h4>
+                  <p class="para-sm"> <span><img src="/img/about/qoute.png" alt="qoute" width="10"></span> As a
+                    result,Bhagat Singh has been ranked as a rival of Mahatma Gandhi. Bhagat Singh was a star that
+                    pursued an
+                    orbit of its own.
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ">
+            <div class="card-box">
+              <div class="card-img-left">
+                <img src="/img/about/dev-0.jpeg" alt="developers" width="100%">
+              </div>
+              <div class="card-content-right">
+                <h6 class="h-fourth">Bhagat Singh</h4>
+                  <p class=" para-sm"> <span><img src="/img/about/qoute.png" alt="qoute" width="10"></span> As a result,
+                    Bhagat Singh has been ranked as a rival of Mahatma Gandhi. Bhagat Singh was a star that pursued an
+                    orbit of its own.
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ">
+            <div class="card-box">
+              <div class="card-img-left">
+                <img src="/img/about/dev-0.jpeg" alt="developers" width="100%">
+              </div>
+              <div class="card-content-right">
+                <h6 class="h-fourth">Bhagat Singh</h4>
+                  <p class="para-sm"> <span><img src="/img/about/qoute.png" alt="qoute" width="10"></span> As a
+                    result,Bhagat Singh has been ranked as a rival of Mahatma Gandhi. Bhagat Singh was a star that
+                    pursued an
+                    orbit of its own.
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ">
+            <div class="card-box">
+              <div class="card-img-left">
+                <img src="/img/about/dev-0.jpeg" alt="developers" width="100%">
+              </div>
+              <div class="card-content-right">
+                <h6 class="h-fourth">Bhagat Singh</h4>
+                  <p class="para-sm"> <span><img src="/img/about/qoute.png" alt="qoute" width="10"></span> As a
+                    result,Bhagat Singh has been ranked as a rival of Mahatma Gandhi. Bhagat Singh was a star that
+                    pursued an
+                    orbit of its own.
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ">
+            <div class="card-box">
+              <div class="card-img-left">
+                <img src="/img/about/dev-0.jpeg" alt="developers" width="100%">
+              </div>
+              <div class="card-content-right">
+                <h6 class="h-fourth">Bhagat Singh</h4>
+                  <p class="para-sm"> <span><img src="/img/about/qoute.png" alt="qoute" width="10"></span> As a result,
+                    Bhagat Singh has been ranked as a rival of Mahatma Gandhi. Bhagat Singh was a star that pursued an
+                    orbit of its own.
+                  </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="my-3">
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <section id="aboutContainer-contact">
+      <h2 class="text-center h-secondry">For Any Query Contact With Us</h2>
+      <form class="container">
+        <div class="mb-3"><label for="name" class="form-label">Enter Your Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" required aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+          </div>
+          <div class="mb-3"><label for="phone" class="form-label">Enter Your PhoneNo.</label>
+            <input type="phone" class="form-control" id="phone" required>
+          </div>
+          <div class="mb-3"><label for="profession" class="form-label">Enter Your Profession</label>
+            <input type="text" class="form-control" id="profession" required>
+          </div>
+          <div class="mb-3">
+            <label for="more" class="form-label">Enter Your Concern</label>
+            <textarea name="more" id="more" cols="10" rows="5" class="form-control" required></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary rounded-pill">Submit</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- Footer Section started it can we use for links just like navbars items  -->
+  {{>Footer}}
+  <!-- Scripts of swipper  -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
+</body>
+</html>
