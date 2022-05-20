@@ -3,16 +3,14 @@
 
 <head>
   {{>Header}}
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
   <!-- Navbar  -->
- {{>Navbar}}
+  {{>Navbar}}
 
   <!-- Our About Section started with all about them -->
   <div class="about">
-
     <h1 class="text-center h-primary">About Us</h1>
     <div class="aboutContainer">
       <div id="aboutContainer-left" class="aboutContainer-left">
@@ -34,141 +32,41 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Card Slider  -->
-    <div class="aboutCard my-3">
-      <h2 class="text-center h-primary">About The MEDDIBUDDIES </h2>
 
-      <!-- Swiper -->
-      <div class="swiper mySwiper aboutContainer-card">
-        <div class="swiper-wrapper ">
+  <!-- Contact -->
+  <section id="aboutContainer-contact">
+    <h2 class="text-center h-secondry">For Any Query Contact With Us</h2>
 
-          <div class="swiper-slide row">
-            <div class=" card" style="width: 24rem;">
-              {{!-- <div class="card-img-left"> --}}
-              <div class="">
-                <img src="/static/img/about/dev-0.jpeg" alt="developers" width="100%" class="">
-              </div>
-              <div class="card-body">
-                <h6 class="h3">Bhagat Singh</h6>
-               <p class="card-text"> <span><img src="/static/img/about/qoute.png" alt="qoute" width="10"></span> Bhagat Singh (27 September 1907 – 23 March 1931) was a charismatic Indian revolutionary who mistaken murder of a junior British police officer in what was to be retaliation for the death of an Indian nationalist.He later took part in a largely symbolic bombing of the Central.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide ">
-            <div class=" card" style="width: 24rem;">
-              <div>
-                <img src="/static/img/about/dev-1.jpeg" alt="developers" width="100%" class="card-img-top">
-              </div>
-              <div class="card-body">
-                <h6 class="h3">Chandra Shekhar Azad</h4>
-                  <p class="card-text"> <span><img src="/static/img/about/qoute.png" alt="qoute" width="10"></span> Chandrashekhar Sitaram Tiwari (23 July 1906 – 27 February 1931), popularly known as Chandra Shekhar Azad, was an Indian revolutionary who reorganised the Hindustan Republican Association (HRA) under its new name of Hindustan Socialist Republican Association (HSRA).</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide ">
-            <div class="card" style="width: 24rem;">
-              <div >
-                <img src="/static/img/about/dev-3.jpeg" alt="developers" width="100%" class="card-img-top">
-              </div>
-              <div class="card-body">
-                <h6 class="h3">SukhDev thapar</h4>
-                  <p class=" card-text"> <span><img src="/static/img/about/qoute.png" alt="qoute" width="10"></span> Sukhdev Thapar (15 May 1907s 23 March 1931) was an Indian revolutionary who worked to make India independent from the British Raj along with his best friends and partners Bhagat Singh and Shivaram Rajguru. A senior member of the Hindustan Socialist Republican Association.
-                  </p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide ">
-            <div class="card" style="width: 24rem;">
-              <div >
-                <img src="/static/img/about/dev-2.jpeg" alt="developers" width="100%" class="card-img-top">
-              </div>
-              <div class="card-body">
-                <h6 class="h3">ShivRam RajGuru</h4>
-                  <p class="card-text"> <span><img src="/static/img/about/qoute.png" alt="qoute" width="10"></span> Shivaram Hari Rajguru (24 August 1908  23 March 1931) was an Indian revolutionary from Maharashtra (then Bombay State), known mainly for his involvement in the assassination of a British police officer named John Saunders. </p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide ">
-            <div class="card" width="24rem">
-              <div >
-                <img src="/static/img/about/dev-4.jpeg" alt="developers" width="50%" height="235px" class="card-img-top">
-              </div>
-              <div class="card-bodyt">
-                <h6 class="h3">Subhas Chandra Bose</h4>
-                  <p class="card-text"> <span><img src="/static/img/about/qoute.png" alt="qoute" width="10"></span>Subhas Chandra Bose (23 January 1897 18 August 1945) was an Indian nationalist whose defiance of British authority in India made him a hero among Indians,but his wartime alliances with Nazi Germany.The honorific Netaji.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide ">
-            <div class="card" width="24rem">
-              <div>
-                <img src="/static/img/about/dev-5.jpeg" alt="developers" width="100%"  class="card-img-top">
-              </div>
-              <div class="card-body">
-                <h6 class="h3">Mangal Pandey</h4>
-                  <p class="card-text"> <span><img src="/static/img/about/qoute.png" alt="qoute" width="10"></span>Mangal Pandey was an Indian soldier who played a key part in the events immediately preceding the outbreak of the Indian rebellion of 1857. He was a sepoyin the 34th Bengal Native Infantry  regiment of the British East India Company.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="my-3">
-          <div class="swiper-pagination"></div>
-        </div>
+    {{!-- contact form from contact with the developers --}}
+    <form class="container">
+      <div class="mb-3"><label for="name" class="form-label">Enter Your Name</label>
+        <input type="text" class="form-control" id="name" required>
       </div>
-    </div>
-
-    <!-- Contact -->
-    <section id="aboutContainer-contact">
-      <h2 class="text-center h-secondry">For Any Query Contact With Us</h2>
-      <form class="container">
-        <div class="mb-3"><label for="name" class="form-label">Enter Your Name</label>
-          <input type="text" class="form-control" id="name" required>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" required aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+        </div>
+        <div class="mb-3"><label for="phone" class="form-label">Enter Your PhoneNo.</label>
+          <input type="phone" class="form-control" id="phone" required>
+        </div>
+        <div class="mb-3"><label for="profession" class="form-label">Enter Your Profession</label>
+          <input type="text" class="form-control" id="profession" required>
         </div>
         <div class="mb-3">
-          <label for="email" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="email" required aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
-          </div>
-          <div class="mb-3"><label for="phone" class="form-label">Enter Your PhoneNo.</label>
-            <input type="phone" class="form-control" id="phone" required>
-          </div>
-          <div class="mb-3"><label for="profession" class="form-label">Enter Your Profession</label>
-            <input type="text" class="form-control" id="profession" required>
-          </div>
-          <div class="mb-3">
-            <label for="more" class="form-label">Enter Your Concern</label>
-            <textarea name="more" id="more" cols="10" rows="5" class="form-control" required></textarea>
-          </div>
+          <label for="more" class="form-label">Enter Your Concern</label>
+          <textarea name="more" id="more" cols="10" rows="5" class="form-control" required></textarea>
         </div>
-        <button type="submit" class="btn btn-primary rounded-pill">Submit</button>
-      </form>
-    </section>
-  </div>
+      </div>
+      <button type="submit" class="btn btn-primary rounded-pill">Submit</button>
+    </form>
+  </section>
+  
 
   <!-- Footer Section started it can we use for links just like navbars items  -->
   {{>Footer}}
-  <!-- Scripts of swipper  -->
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      slidesPerGroup: 3,
-      loop: true,
-      loopFillGroupWithBlank: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
+ </body>
 
-
-</body>
 </html>
