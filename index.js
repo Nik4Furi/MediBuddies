@@ -27,6 +27,15 @@ app.get('/about',(req,res)=>{
     // res.send("Hello, is this about page?")
     res.status(200).render('about',{title:'About: '});
 })
+app.get('/appointment',(req,res)=>{ 
+    // res.send("Hello, is this about page?")
+    res.status(200).render('appointment',{title:'Appointment: '});
+})
+app.get('/surveys',(req,res)=>{ 
+    // res.send("Hello, is this about page?")
+    res.status(200).render('survey',{title:'Surveys: '});
+})
+
 app.get('*',(req,res)=>{ 
     // res.send("Hello, is this about page?")
     res.status(404).render('errorPage');

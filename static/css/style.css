@@ -43,8 +43,8 @@
     /* flex-wrap: wrap; */
 }
 .aboutCard{
-    height: 50vh;
-    margin: 23px;
+    /* height: 50vh;
+    margin: 23px; */
 }
 .aboutContainer{
     width: 100%;
@@ -101,12 +101,12 @@
     /* border: 3px solid rgba(0, 0, 0, 0.5); */
     box-shadow: 2px 2px 2px 4px rgba(231, 225, 225, 0.9), -2px -2px 2px 4px rgba(231, 225, 225, 0.9);
     /* background: yellow; */
-    width: 20vw;
-    height: 60%;
+    /* width: 20vw; */
+    height: 80%;
     margin: 20px 10px;
     display: flex;
     border-radius: 20px;
-    padding: 5px 3px;
+    padding: 5px 7px;
     
 }
 .card-img-left{
